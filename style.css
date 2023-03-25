@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;800&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+}
+header {
+    width: 100%;
+    height: 100px;
+}
+.nav {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.nav__links a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: hsl(236, 13%, 42%);
+}
+.nav__links a:hover {
+    color: hsl(35, 77%, 62%);
+}
+.first__section {
+    width: 100%;
+    height: 85vh;
+    /*background-color: rgb(27, 76, 120);*/
+}
+.conteiner {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+}
+.first-div {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+.div__img {
+    width: 100%;
+}
+.img {
+    width: 100%;
+}
+.second-div {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.h3-div {
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.second-div__paragraph {
+    margin-top: 30px;
+    
+}
+.second-div__paragraph p {
+    color:  hsl(236, 13%, 42%);
+    font-size: 20px;
+    
+}
+.second-div__paragraph a {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: hsl(240, 100%, 5%);
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 5px;
+    margin-top: 50px ;
+}
+.second-div__paragraph a:hover {
+    background-color: hsl(35, 77%, 62%);
+}
+.aside__div {
+    width: 29%;
+    height: 100%;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding: 40px 20px;
+}
+.aside__div h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+}
+.aside-div h3 {
+    color: aliceblue;
+    font-size: 20px;
+}
+.aside-div {
+    margin-top: 30px;
+}
+.aside-div h3 {
+    display: inline-block;
+    margin-bottom: 20px ;
+}
+.aside-div p {
+    display: inline-block;
+    margin: 20px 0;
+}
+.last__div {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.articule {
+    display: flex;
+    width: 30%;
+}
+.articule h2 {
+    margin-left: 20px;
+}
+.articule h3 {
+    margin-top: 10px;
+}
+.last__div :nth-child(2) {
+    margin-left: 20px;
+}
+.last__div :nth-child(3){
+    margin-left: 20px;
+}
+.articule h2 {
+    font-size: 50px;
+}
